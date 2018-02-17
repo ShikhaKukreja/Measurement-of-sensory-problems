@@ -1,0 +1,868 @@
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="socialparticipation" value="socialparticipation" />Social Participation
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="vision" value="vision" />Vision
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="hearing" value="hearing" />Hearing
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="touch" value="touch" />Touch
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="tastesmell" value="tastesmell" />Taste and Smell Items
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="bodyawareness" value="bodyawareness" />Body Awareness
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="balance" value="balance" />Balance and Motion
+<input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="planning" value="planning" />Planning and Ideas
+
+<br>
+<div>
+    <table id="ifYes" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td data-value="helpful">Works as a part of a team; is helpful with others.</td>
+            <td>
+                <select id="selectOption1" name="selectOption1">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Resolves peer conflicts without teacher intervantion.</td>
+            <td>
+                <select id="selectOption2" name="selectOption2">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Handles frustration without outbursts or aggressive behavior</td>
+            <td>
+                <select id="selectOption3" name="selectOption3">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Willingly plays with peers in a variety of games and activities.</td>
+            <td>
+                <select id="selectOption4" name="selectOption4">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Enters into play with peers without disrupting ongoing activity.
+            </td>
+            <td>
+                <select id="selectOption5" name="selectOption5">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Has friends and chooses to be with them when possible.
+            </td>
+            <td>
+                <select id="selectOption6" name="selectOption6">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Uses and understands humor when playing with peers.
+            </td>
+            <td>
+                <select id="selectOption7" name="selectOption7">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8
+            </td>
+            <td>
+                Maintains appropraite "personal space"
+            </td>
+            <td>
+                <select id="selectOption8" name="selectOption8">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>
+                Mainatins appropriate eye contact during conversation.
+            </td>
+            <td>
+                <select id="selectOption9" name="selectOption9">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Shifts conversation topics in accordance with peer interests;doesnt stay stuck on one topic.</td>
+            <td>
+                <select id="selectOption10" name="selectOption10">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="visiondiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Squints, covers eyes, or complains about classroom lighting or bright sunlight.
+                <td>
+                    <select id="selectOption11" name="selectOption11">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+                </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shows distress at the sight of moving objects.</td>
+            <td>
+                <select id="selectOption12" name="selectOption12">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Becomes distracted by nearby visual stimuli</td>
+            <td>
+                <select id="selectOption13" name="selectOption13">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>During instruction or announcement, student looks around or at peers, rather than looking at person speaking or at blackboard.</td>
+            <td>
+                <select id="selectOption14" name="selectOption14">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Spins or flicks objects in front of eyes.
+            </td>
+            <td>
+                <select id="selectOption15" name="selectOption15">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Stares intensely at people or objects.
+            </td>
+            <td>
+                <select id="selectOption16" name="selectOption16">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Shows distress when lights are dimmed for movies and assemblies.
+            </td>
+            <td>
+                <select id="selectOption17" name="selectOption17">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="hearingdiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Shows distress at loud sounds.</td>
+            <td>
+                <select id="selectOption18" name="selectOption18">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shows distress at the sounds of singing or musical instruments.</td>
+            <td>
+                <select id="selectOption19" name="selectOption19">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Does not respond to voices or new sounds</td>
+            <td>
+                <select id="selectOption20" name="selectOption20">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cannot determine location of sounds or voices</td>
+            <td>
+                <select id="selectOption21" name="selectOption21">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Makes noises, hums, sings, or yells during quiet class time.
+            </td>
+            <td>
+                <select id="selectOption22" name="selectOption22">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Speaks too loudly or makes excessive noise during transitions.
+            </td>
+            <td>
+                <select id="selectOption23" name="selectOption23">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Yells, screams, or makes unusual noises to self.
+            </td>
+            <td>
+                <select id="selectOption24" name="selectOption24">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="touchdiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Shows distress when hands or face are dirty.</td>
+            <td>
+                <select id="selectOption25" name="selectOption25">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Does not tolerate dirt on hands or clothing, even briefly.</td>
+            <td>
+                <select id="selectOption26" name="selectOption26">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shows distress when touching certain textures</td>
+            <td>
+                <select id="selectOption27" name="selectOption27">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Is distressed by accidental touch of peers.</td>
+            <td>
+                <select id="selectOption28" name="selectOption28">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Does not respond to another's touch.
+            </td>
+            <td>
+                <select id="selectOption29" name="selectOption29">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Seeks hot or cold temperatures by touching windows, other surfaces.
+            </td>
+            <td>
+                <select id="selectOption30" name="selectOption30">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Touches classmates inappropriately during class and when standing in line.
+            </td>
+            <td>
+                <select id="selectOption31" name="selectOption31">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8
+            </td>
+            <td>
+                Does not clean saliva or food from face.
+            </td>
+            <td>
+                <select id="selectOption32" name="selectOption32">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="tastesmelldiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Shows distress at the tastes or odors of different foods.</td>
+            <td>
+                <select id="selectOption33" name="selectOption33">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Does not notice strong or unusual odors.</td>
+            <td>
+                <select id="selectOption34" name="selectOption34">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Cannot distinguish between odors; does not prefer good smells to bad smells.</td>
+            <td>
+                <select id="selectOption35" name="selectOption35">
+<<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Tries to taste or lick objects or people.</td>
+            <td>
+                <select id="selectOption36" name="selectOption36">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="bodyawarenessdiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Spills contents when opening containers.</td>
+            <td>
+                <select id="selectOption37" name="selectOption37">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Chews or mouths clothing, pencils, crayons, or classroom materials.</td>
+            <td>
+                <select id="selectOption38" name="selectOption38">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Moves chair roughly.</td>
+            <td>
+                <select id="selectOption39" name="selectOption39">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Runs, hops, or bounces instead of walking.</td>
+            <td>
+                <select id="selectOption40" name="selectOption40">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Stomps or slaps feet on the ground when walking.
+            </td>
+            <td>
+                <select id="selectOption41" name="selectOption41">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Jumps or stomps on stairs.
+            </td>
+            <td>
+                <select id="selectOption42" name="selectOption42">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Slams doors shut or opens doors with excessive force.
+            </td>
+            <td>
+                <select id="selectOption43" name="selectOption43">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="balancediv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Runs hand along wall when walking.</td>
+            <td>
+                <select id="selectOption44" name="selectOption44">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Wraps legs around chair legs.</td>
+            <td>
+                <select id="selectOption45" name="selectOption45">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rocks in chair while seated at desk or table.</td>
+            <td>
+                <select id="selectOption46" name="selectOption46">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Fidgets when seated at desk or table.</td>
+            <td>
+                <select id="selectOption47" name="selectOption47">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Falls out of chair when seated at desk or table.
+            </td>
+            <td>
+                <select id="selectOption48" name="selectOption48">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Leans on walls, furniture, or other epople for support when standing.
+            </td>
+            <td>
+                <select id="selectOption49" name="selectOption49">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                When seated on floor, cannot sit up without support.
+            </td>
+            <td>
+                <select id="selectOption50" name="selectOption50">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8
+            </td>
+            <td>
+                Slumps,leans on desk, or holds haed up in hands while seated at desk.
+            </td>
+            <td>
+                <select id="selectOption51" name="selectOption51">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>
+                Has poor coordination, appears clumsy.
+            </td>
+            <td>
+                <select id="selectOption52" name="selectOption52">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+    <table id="planningdiv" style="width:100%;display:none">
+        <tr>
+            <td>1</td>
+            <td>Does not perform consistently in daily tasks;quality of work varies widely.</td>
+            <td>
+                <select id="selectOption53" name="selectOption53">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Is unable to solve problems effectively.</td>
+            <td>
+                <select id="selectOption54" name="selectOption54">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Boobles or drops items when attempting to carry multiple objects.</td>
+            <td>
+                <select id="selectOption55" name="selectOption55">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Does not perform tasks in proepr sequence.</td>
+            <td>
+                <select id="selectOption56" name="selectOption56">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+            </td>
+            <td>
+                Fails to complete tasks with multiple steps.
+            </td>
+            <td>
+                <select id="selectOption57" name="selectOption57">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>
+                Has difficulty correctly imitating demonstrations.
+            </td>
+            <td>
+                <select id="selectOption58" name="selectOption58">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7
+            </td>
+            <td>
+                Has difficulty completing tasks from a presented model.
+            </td>
+            <td>
+                <select id="selectOption59" name="selectOption59">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8
+            </td>
+            <td>
+                Demonstrates limited imagination and creativity in play and free time.
+            </td>
+            <td>
+                <select id="selectOption60" name="selectOption60">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>
+                Plays repetitively during free time;does not expand or alter activity when given opportunity.
+            </td>
+            <td>
+                <select id="selectOption61" name="selectOption61">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>
+                Shows poor organization of materials in, on, or around desk area.
+            </td>
+            <td>
+                <select id="selectOption62" name="selectOption62">
+<option value="1">Never</option>
+<option value="2">Occassionally</option>
+<option value="3">Frequently</option>
+<option value="4">Always</option>
+</select>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<br>
